@@ -1,0 +1,20 @@
+.Weather {
+	text-align: left;
+}
+
+.Weather p {
+	margin-top: 0;
+	margin-bottom: 0rem;
+	font-size: 0.8rem;
+	font-weight: 100;
+}
+.Weather sup {
+	cursor: pointer;
+}
+
+@media (max-width: 767px) {
+	.Weather {
+		text-align: left;
+		margin: 1rem 0 2rem;
+	}
+}

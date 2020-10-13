@@ -1,0 +1,57 @@
+.Forecast {
+	display: flex;
+	flex-flow: row wrap;
+	background-color: #fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.Forecast .hours {
+	flex-grow: 1;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.Forecast h1,
+.Forecast h2,
+.Forecast h3,
+.Forecast h4,
+.Forecast h5,
+.Forecast h6 {
+	font-weight: 500;
+	line-height: normal;
+	color: rgba(0, 0, 0, 0.6);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.Forecast h3 {
+	font-size: 0.8rem;
+	color: rgb(0, 0, 0);
+	/* text-transform: uppercase; */
+}
+
+.Forecast p {
+	margin-top: 0;
+	margin-bottom: 0rem;
+}
+
+.Forecast p span {
+	margin-top: 0;
+	margin-bottom: 0rem;
+	font-size: 0.8rem;
+	font-weight: 100;
+}
+
+@media (max-width: 767px) {
+	.Forecast {
+		display: grid;
+		justify-content: center;
+		position: relative;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

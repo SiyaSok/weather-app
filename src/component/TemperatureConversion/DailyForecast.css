@@ -1,0 +1,48 @@
+.DailyForecast {
+	display: flex;
+	flex-flow: row wrap;
+	background-color: #fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.DailyForecast .hours {
+	flex-grow: 1;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.DailyForecast h1,
+.DailyForecast h2,
+.DailyForecast h3,
+.DailyForecast h4,
+.DailyForecast h5,
+.DailyForecast h6 {
+	font-weight: 500;
+	line-height: normal;
+	color: rgba(0, 0, 0, 0.6);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.DailyForecast h3 {
+	font-size: 0.8rem;
+	color: rgb(0, 0, 0);
+	/* text-transform: uppercase; */
+}
+
+.DailyForecast p {
+	margin-top: 0;
+	margin-bottom: 0rem;
+}
+
+.DailyForecast p span {
+	margin-top: 0;
+	margin-bottom: 0rem;
+	font-size: 0.8rem;
+	font-weight: 100;
+}

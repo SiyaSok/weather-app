@@ -1,0 +1,74 @@
+.Areas {
+	display: flex;
+	flex-flow: row wrap;
+
+	text-align: left;
+	padding: 0;
+}
+
+.Areas .Area {
+	background-color: #fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	flex-grow: 1;
+	text-align: center;
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+.Areas .Area:hover {
+	background-color: #ffeb3bed;
+}
+
+.Areas .Area h1,
+.Areas .Area h2,
+.Areas .Area h3,
+.Areas .Area h4,
+.Areas .Area h5,
+.Areas .Area h6 {
+	font-weight: 100;
+	line-height: normal;
+	color: rgba(0, 0, 0, 0.6);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.Areas .Area h2 {
+	/* text-transform: uppercase; */
+	font-size: 0.8rem;
+	color: rgb(0, 0, 0);
+	font-weight: 500;
+}
+
+.Areas .Area p {
+	margin-top: 0;
+	margin-bottom: 0rem;
+	font-size: 0.8rem;
+}
+
+.Areas .Area p span {
+	margin-top: 0;
+	margin-bottom: 0rem;
+}
+.max-temp {
+	font-size: 1.1rem;
+	color: red;
+	padding: 0.2rem;
+}
+.min-temp {
+	color: blue;
+}
+@media (max-width: 767px) {
+	.Areas {
+		display: flex;
+		flex-flow: row wrap;
+		text-align: left;
+		padding: 0;
+		display: grid;
+		justify-content: center;
+		position: relative;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

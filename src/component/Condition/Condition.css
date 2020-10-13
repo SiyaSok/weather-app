@@ -1,0 +1,87 @@
+.Condition {
+	display: flex;
+	flex-flow: row wrap;
+	background-color: #fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	text-align: left;
+}
+
+.Condition h1,
+.Condition h2,
+.Condition h3,
+.Condition h4,
+.Condition h5,
+.Condition h6 {
+	font-weight: 500;
+	line-height: normal;
+	color: rgba(0, 0, 0, 0.6);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.Condition h3 {
+	font-size: 1rem;
+	margin-bottom: .5rem;
+	font-weight: 500;
+	line-height: 1.2;
+	color: rgb(0, 0, 0);
+}
+
+.Condition p {
+	margin-top: 0;
+	margin-bottom: 0rem;
+}
+
+.Condition p span {
+	margin-top: 0;
+	margin-bottom: 0rem;
+	font-size: 0.8rem;
+	font-weight: 100;
+}
+
+.Condition .panel-heading {
+	padding: 2px 0px 0px 20px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.Condition .panel-body {
+	padding: 0px 15px 15px 15px;
+}
+
+.Condition .list-group {
+	padding-left: 0;
+	margin-bottom: 20px;
+}
+.Condition .list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+
+.Condition .list-group-item {
+	position: relative;
+	display: block;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-left: 0 none;
+	border-right: 0 none;
+	border-top: 0 none;
+	margin: 0;
+	padding: 10px 0;
+}
+
+.Condition .list-group li.list-group-item {
+	font-size: 0.8rem;
+	font-weight: 100;
+}
+.Condition .pull-right {
+	float: right !important;
+}
+/* .Condition .fa,
+.Condition .fas {
+	color: burlywood;
+} */
